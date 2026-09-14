@@ -1,0 +1,4 @@
+python-dotenv
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-http
+azure-monitor-opentelemetry
