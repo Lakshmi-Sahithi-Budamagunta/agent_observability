@@ -23,7 +23,7 @@ initialize_observability(
 
 Note: Keep both langfuse and application insights or either of them.
 
-##Telemetry
+## Telemetry
 
 1. Langfuse receives traces
 2. Application Insights receives traces, logs and metrics
