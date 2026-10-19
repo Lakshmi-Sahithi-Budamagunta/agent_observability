@@ -12,5 +12,8 @@ dependencies = [
     "azure-monitor-opentelemetry",
 ]
 
-[tool.setuptools]
-py-modules = ["observability", "agent_observability"]
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-dir]
+agent_observability = "."
