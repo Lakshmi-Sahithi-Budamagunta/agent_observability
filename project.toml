@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "agent_observability"
+version = "0.1.0"
+dependencies = [
+    "python-dotenv",
+    "opentelemetry-sdk",
+    "opentelemetry-exporter-otlp-proto-http",
+    "azure-monitor-opentelemetry",
+]
+
+[tool.setuptools]
+py-modules = ["observability", "agent_observability"]
