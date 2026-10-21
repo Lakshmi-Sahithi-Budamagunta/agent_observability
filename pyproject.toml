@@ -11,9 +11,3 @@ dependencies = [
     "opentelemetry-exporter-otlp-proto-http",
     "azure-monitor-opentelemetry",
 ]
-
-[tool.setuptools.packages.find]
-where = ["."]
-
-[tool.setuptools.package-dir]
-agent_observability = "."
